@@ -1,0 +1,25 @@
+{
+  "name": "magein/thinkphp-payment",
+  "description": "thinkphp扩展的支付文档",
+  "type": "library",
+  "homepage": "https://github.com/magein/thinkphp-payment",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "xiaomage",
+      "email": "1154699897@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "~7.3"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "magein\\thinkphp_payment\\": "src/"
+    }
+  }
+}
